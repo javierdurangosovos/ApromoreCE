@@ -63,7 +63,7 @@
                             <excludeArtifactIds>
                                 logback-core,logback-classic,
                                 javax.persistence,
-                                com.springsource.javax.xml.bind
+                                jaxb-api
                             </excludeArtifactIds>
                             <!-- Spring and Gemini are already bundled with Virgo -->
                             <excludeGroupIds>

@@ -27,7 +27,7 @@
     <dependencies>
         <dependency>
             <groupId>javax.xml.bind</groupId>
-            <artifactId>com.springsource.javax.xml.bind</artifactId>
+            <artifactId>jaxb-api</artifactId>
         </dependency>
         <dependency> <!-- for the com.processconfiguration extension classes -->
             <groupId>org.apromore</groupId>
