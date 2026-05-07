@@ -74,7 +74,7 @@
 
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>org.springframework.context</artifactId>
+            <artifactId>spring-context</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apromore</groupId>

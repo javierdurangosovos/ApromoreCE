@@ -51,13 +51,13 @@
         <!-- spring -->
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>org.springframework.beans</artifactId>
+            <artifactId>spring-beans</artifactId>
         </dependency>
 
         <!-- Spring-WS dependencies -->
         <dependency>
             <groupId>org.springframework.ws</groupId>
-            <artifactId>org.springframework.ws</artifactId>
+            <artifactId>spring-ws-core</artifactId>
         </dependency>
 
         <!-- HTTP Commons, used in the spring config. -->
