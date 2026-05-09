@@ -78,7 +78,7 @@
                             org.springframework.security.web;version="[3.1.0,4.0)",
                             org.springframework.security.remoting;version="[3.1.0,4.0)",
                             com.springsource.javax.validation;version="[1.0.0.GA,1.0.0.GA]",
-                            com.springsource.org.apache.tools.ant;version="[1.8.3,1.8.3]",
+                            org.apache.servicemix.bundles.ant;version="[1.8.4,2)",
                             <!--org.apache.servicemix.bundles.ant;version="[1.9,2.0)",-->
                             org.apromore.manager-ws-model;version="[1.1,1.1]",
                             org.apromore.manager-security;version="[1.1,1.1]",
@@ -179,8 +179,8 @@
             <artifactId>com.springsource.javax.validation</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.ant</groupId>
-            <artifactId>com.springsource.org.apache.tools.ant</artifactId>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.ant</artifactId>
         </dependency>
         <!--<dependency>-->
             <!--<groupId>org.apache.servicemix.bundles</groupId>-->

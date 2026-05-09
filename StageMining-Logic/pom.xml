@@ -26,7 +26,7 @@
                     <unpackBundle>false</unpackBundle> <!-- This is important so that embedded JAR's don't show up twice -->
                     <instructions>
                         <Embed-Dependency>
-                            artifactId=com.springsource.org.apache.derby
+                            groupId=org.apache.derby;artifactId=derby
                         </Embed-Dependency>
                         <Embed-Transitive>false</Embed-Transitive>
                         <Import-Package>
@@ -71,6 +71,11 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-math3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
         </dependency>
         
         <dependency>

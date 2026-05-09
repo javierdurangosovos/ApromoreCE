@@ -182,7 +182,7 @@
                             org.springframework.security.remoting;version="[3.1.0,4.0)",
                             org.springframework.ws;version="[2.1.0.RELEASE,2.1.0.RELEASE]",
                             com.springsource.javax.validation;version="[1.0.0.GA,1.0.0.GA]",
-                            com.springsource.org.apache.tools.ant;version="[1.8.3,1.8.3]"
+                            org.apache.servicemix.bundles.ant;version="[1.8.4,2)"
                         </Import-Bundle>
                         <Import-Package>
                             org.eclipse.virgo.web.dm,

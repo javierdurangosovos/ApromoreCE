@@ -83,8 +83,8 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.ant</groupId>
-            <artifactId>com.springsource.org.apache.tools.ant</artifactId>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.ant</artifactId>
             <scope>provided</scope>
         </dependency>
         <dependency>
