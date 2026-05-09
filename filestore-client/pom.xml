@@ -63,7 +63,7 @@
         <!-- HTTP Commons, used in the spring config. -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>com.springsource.org.apache.httpcomponents.httpclient</artifactId>
+            <artifactId>httpclient</artifactId>
         </dependency>
 
         <!-- Webdav -->
@@ -96,8 +96,8 @@
                         <Embed-Transitive>false</Embed-Transitive>
                         <Import-Bundle>
                             org.springframework.beans;bundle-version="[3.1.0,4.0)",
-                            com.springsource.org.apache.httpcomponents.httpclient;version="[4.2.1,4.2.1]",
-                            com.springsource.org.apache.httpcomponents.httpcore;version="[4.2.1,4.2.1]",
+                            org.apache.httpcomponents.httpclient;version="[4.2.1,4.3)",
+                            org.apache.httpcomponents.httpcore;version="[4.2.1,4.3)",
                             org.springframework.ws;version="[2.1.0.RELEASE,2.1.0.RELEASE]"
                         </Import-Bundle>
                         <Import-Package>
