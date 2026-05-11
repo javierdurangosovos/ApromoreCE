@@ -79,7 +79,7 @@
         </dependency>
         <dependency>
             <groupId>javax.validation</groupId>
-            <artifactId>com.springsource.javax.validation</artifactId>
+            <artifactId>validation-api</artifactId>
             <scope>provided</scope>
         </dependency>
         <dependency>
