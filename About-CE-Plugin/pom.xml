@@ -37,6 +37,13 @@
             <artifactId>about-portal-plugin</artifactId>
             <version>1.0</version>
         </dependency>
+        <!-- Same as About-Portal-Plugin: portal:classes can pull apromore-manager:jar:1.0 from remote metadata. -->
+        <dependency>
+            <groupId>org.apromore</groupId>
+            <artifactId>apromore-manager</artifactId>
+            <version>${manager-client.version}</version>
+            <type>bundle</type>
+        </dependency>
         <dependency>
             <groupId>org.apromore</groupId>
             <artifactId>apromore-portal</artifactId>
