@@ -508,6 +508,12 @@
             <artifactId>plugin-api</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.apromore</groupId>
+            <artifactId>apromore-manager</artifactId>
+            <version>${manager-client.version}</version>
+            <type>bundle</type>
+        </dependency>
+        <dependency>
             <groupId>org.apromore.plugin</groupId>
             <artifactId>editor-plugin-api</artifactId>
         </dependency>
