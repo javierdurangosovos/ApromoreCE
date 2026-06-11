@@ -131,6 +131,7 @@
             <fileset refid="fileset-community-old-plugin-annotation"/>  
             <fileset refid="fileset-community-old-plugin-canoniser"/>  
         </copy>
+        <ant antfile="ApromoreCore/build-core.xml" target="patch-virgo-bundles"/>
     </target>
 
     <target name="cpf-importer-uptodate">

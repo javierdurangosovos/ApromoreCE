@@ -63,7 +63,8 @@
                             <excludeArtifactIds>
                                 logback-core,logback-classic,
                                 javax.persistence,
-                                jaxb-api
+                                jaxb-api,snappy-java,
+                                apromore-manager
                             </excludeArtifactIds>
                             <!-- Spring and Gemini are already bundled with Virgo -->
                             <excludeGroupIds>
