@@ -31,6 +31,16 @@
                         <Embed-Transitive>false</Embed-Transitive>
                         <Import-Package>
                             org.springframework.beans.factory.aspectj,
+                            org.springframework.*;version="[3.1.0,4.0.0)",
+                            !com.ibm.db2.jcc,
+                            !org.apache.derby.jdbc,
+                            !org.apache.derby.*,
+                            !org.apache.xpath,
+                            !org.apache.xpath.*,
+                            !org.apache.xalan,
+                            !org.apache.xalan.*,
+                            !org.apache.xml.utils,
+                            !org.apache.xml.utils.*,
                             *
                         </Import-Package>
                         <Export-Package>
